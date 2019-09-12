@@ -1,0 +1,22 @@
+ #header label{
+    text-transform: uppercase;
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-size: 1.2vw;
+}
+ #header label:first-child
+{
+    color: red;
+    font-weight: 600;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#footer label{
+    text-transform: uppercase;
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+#reduction{
+    font-weight: bold;
+}

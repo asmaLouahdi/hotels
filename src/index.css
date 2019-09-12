@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 250px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+.react-slideshow-container{
+  width:450px!important;
+    display: inline-flex!important;
+}
+.slide{
+  display: inline;
+}
+.post{
+  display: inline-table;
+  margin: 1.5vw;
+  height: 350px;
+  background-color: white;
+}
